@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Le personal MBA - Téléchargement Gratuit</title>
-  <meta name="ppck-ver" content="1bd34ddf164188fdcfd34b46be7e021a" />
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -53,8 +52,8 @@
       color: #666;
     }
   </style>
-  <!-- Charger la publicité Adcash (aclib.js) une seule fois -->
-  <script type="text/javascript" src="https://acscdn.com/script/aclib.js"></script>
+  <!-- Charger une seule fois Adcash -->
+<script type="text/javascript" src="https://acscdn.com/script/aclib.js"></script>
 </head>
 <body>
   <div class="container">
@@ -65,7 +64,7 @@
     <div class="ads">
       📢 Publicité 1 <br>
       <script type="text/javascript">
-        aclib.runAutoTag({
+        aclib.runTag()({
             zoneId: 'ris7boj1xb',
         });
       </script>
@@ -78,7 +77,7 @@
     <div class="ads">
       📢 Publicité 2 <br>
       <script type="text/javascript">
-        aclib.runAutoTag({
+        aclib.runTag()({
             zoneId: 'ris7boj1xb',
         });
       </script>
